@@ -100,6 +100,7 @@ const Navigation = ({ user }: { user: UserType }) => {
           </div>
         </div>
       </div>
+      
 
       {/* Responsive Navigation Menu */}
       {open && (
@@ -152,4 +153,4 @@ const Navigation = ({ user }: { user: UserType }) => {
   )
 }
 
-export default Navigation
+export default Navigation;
