@@ -120,7 +120,7 @@ export const useAuth = ({
       router.push(redirectIfAuthenticated)
     }
     if (middleware === 'auth' && error) logout()
-  }, [user, error, middleware, redirectIfAuthenticated, logout, router])
+  }, [user, error, middleware, redirectIfAuthenticated, router])
 
   return {
     user,
